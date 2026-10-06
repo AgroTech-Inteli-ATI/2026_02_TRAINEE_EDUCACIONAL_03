@@ -13,7 +13,7 @@ description: Padrões de escrita, fontes, imagens, tabelas e colaboração
 - Diferencie fatos, interpretações e hipóteses.
 - Explique o significado dos dados; não apresente apenas números.
 - Registre premissas, limitações e possíveis vieses.
-- Não inclua informações sensíveis, confidenciais ou dados da Atvos.
+- Não inclua informações sensíveis, confidenciais ou dados internos de empresas.
 - Use linguagem objetiva e adequada a uma audiência executiva.
 
 ## Citações e referências
