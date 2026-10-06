@@ -20,7 +20,7 @@ description: Empresa, operação e desafios que orientam o entregável 2
 
 ## Pergunta norteadora
 
-[Definir a pergunta do entregável 2 sem formular uma solução para o case real da Atvos.]
+[Definir a pergunta do entregável 2 com base na empresa pesquisada ou em cenário genérico.]
 
 ## Limites da análise
 

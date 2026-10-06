@@ -1,118 +1,33 @@
 ---
 sidebar_position: 1
 slug: /
-description: "Introdução ao Projeto"
+title: Introdução ao projeto
+description: Escopo da trilha educacional e empresa analisada
 ---
 
-# Introdução ao Projeto
+# Introdução ao projeto
 
-## Objetivo do Projeto
+## Objetivo
 
-### Propósito
+o projeto desenvolvido busca desenvolver a capacidade de compreender problemas de Suprimentos antes de avaliar possíveis decisões. O estudo do setor sucroenergético mostra como campo, indústria e logística dependem uns dos outros e por que a continuidade da operação exige coordenação entre manutenção, materiais e fornecedores.
 
-Este projeto tem como objetivo preparar os trainees para um futuro case de business sobre gestão e centralização de materiais MRO, desenvolvendo uma análise estruturada do setor sucroenergético, da operação agroindustrial e do papel de Suprimentos e da manutenção.
+## Empresa analisada
 
-Ao longo do projeto, os grupos irão evoluir em duas etapas principais:
+A São Martinho atua na produção e comercialização de açúcar, etanol e bioeletricidade, com unidades agroindustriais em São Paulo e Goiás ([S4](/contexto-operacao/metodologia-fontes)). Ela foi escolhida porque sua operação integra lavoura, indústria e energia, permitindo estudar a ligação entre continuidade da moagem, manutenção e Suprimentos. A companhia divulga documentos operacionais e societários suficientes para uma análise inicial sem dados internos ([S4](/contexto-operacao/metodologia-fontes), [S5](/contexto-operacao/metodologia-fontes)).
 
-1. Contexto setorial, operação e papel de Suprimentos.
-2. Gestão de materiais MRO e centralização de estoques.
+## Como ler as páginas
 
-O projeto é preparatório e não deve antecipar ou reproduzir a solução do case real com a Atvos.
+Comece pelo [glossário](/contexto-operacao/glossario), consulte a [metodologia e o registro de fontes](/contexto-operacao/metodologia-fontes) e avance por contexto, drivers, cadeia de valor e empresa. O [roteiro da apresentação executiva](/contexto-operacao/apresentacao-executiva) resume o Entregável 1 em cinco blocos.
 
----
 
-### Metodologia
+## Limite do estudo
 
-O desenvolvimento seguirá uma abordagem estruturada baseada em:
+Não foram obtidos dados de disponibilidade de equipamentos, paradas, contratos, estoques ou desenho interno de Suprimentos da São Martinho. Exemplos de falha e necessidades de peças descrevem mecanismos gerais da agroindústria e não diagnósticos da empresa.
 
-- Pesquisa com informações públicas.
-- Análise do contexto, dos drivers e da operação do setor sucroenergético.
-- Mapeamento da cadeia de valor e da relação entre manutenção e Suprimentos.
-- Análise de materiais e estoques MRO.
-- Comparação entre modelos de gestão e armazenagem.
-- Mapeamento de fluxo por SIPOC ou ferramenta equivalente.
-- Benchmark de práticas e referências de mercado.
-- Aplicação de matriz de decisão multicritério a um cenário genérico.
-- Registro de fontes, premissas, limitações e possíveis vieses.
+## Equipe
 
----
+**Nomes dos integrantes:**
 
-## Setor Estudado
-
-**Setor**: Sucroenergético
-
-Todos os grupos estudarão empresas produtoras de cana-de-açúcar, açúcar, etanol e bioenergia, considerando as etapas agrícola, industrial e logística e sua relação com a continuidade operacional.
-
----
-
-## Empresa Analisada
-
-**Empresa estudada**: [Preencher]
-
-### Justificativa da Escolha
-
-Explicar a escolha da empresa com base em:
-
-- Relevância no setor sucroenergético.
-- Disponibilidade de informações públicas.
-- Possibilidade de analisar operação, manutenção e Suprimentos.
-- Adequação aos objetivos dos dois entregáveis.
-
-Cada grupo deverá analisar uma empresa diferente e mantê-la como referência ao longo das duas etapas.
-
----
-
-## Equipe do Projeto
-
-### Integrantes
-
-- [Nome do integrante 1]
-- [Nome do integrante 2]
-- [Nome do integrante 3]
-- [Nome do integrante 4]
-- [Nome do integrante 5]
-
----
-
-## Cronograma de Entregas
-
-| Entregável | Data de Entrega | Status |
-|---|---:|---|
-| Contexto Setorial, Operação e Papel de Suprimentos | 05/10/2026 | Pendente |
-| Gestão de Materiais MRO e Centralização de Estoques | 30/10/2026 | Pendente |
-
----
-
-## Estrutura da Documentação
-
-### Entregável 1: Contexto Setorial, Operação e Papel de Suprimentos
-
-- Contexto, tamanho e relevância do setor sucroenergético.
-- Tendências, desafios e drivers do setor.
-- Cadeia de valor e operação agroindustrial.
-- Empresa, manutenção e papel de Suprimentos.
-
-### Entregável 2: Gestão de Materiais MRO e Centralização de Estoques
-
-- Retomada da empresa e dos desafios identificados.
-- Materiais MRO, Curva ABC, criticidade e indicadores.
-- Modelos centralizado, descentralizado e híbrido.
-- Fluxo de materiais por SIPOC ou equivalente.
-- Mercado fornecedor e fatores logísticos.
-- Benchmark de práticas.
-- Critérios e matriz de decisão multicritério.
-
----
-
-## Ferramentas Utilizadas
-
-- Dados e análises: Excel / Google Sheets.
-- Documentação: Docusaurus.
-- Apresentações: PowerPoint / Google Slides.
-- Fontes de dados: órgãos públicos, associações setoriais, publicações acadêmicas e relatórios de empresas.
-
----
-
-## Observações
-
-Este projeto possui caráter educacional. Todas as análises devem utilizar informações públicas, citar suas fontes e explicitar limitações e premissas. Os frameworks devem ser aplicados à empresa pesquisada ou a cenários genéricos, sem utilização de dados da Atvos.
+Clara Rapuano
+Haila Thauane Flacão Novaes
+Júlia Bezerra

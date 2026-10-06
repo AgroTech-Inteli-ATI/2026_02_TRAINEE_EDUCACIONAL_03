@@ -25,7 +25,7 @@ description: Comparação entre estoques centralizado, descentralizado e híbrid
 
 ## Aplicação ao contexto pesquisado
 
-[Relacionar os modelos às características públicas da empresa sem recomendar uma solução para a Atvos.]
+[Relacionar os modelos às características públicas da empresa estudada sem recomendar uma solução específica.]
 
 ---
 

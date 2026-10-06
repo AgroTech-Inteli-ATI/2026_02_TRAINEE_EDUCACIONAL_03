@@ -8,7 +8,7 @@ description: Matriz multicritério aplicada a um cenário genérico
 # Critérios e matriz de decisão
 
 :::warning Aplicação genérica
-A matriz deve ser aplicada a um cenário hipotético ou à empresa pesquisada com dados públicos. Não utilizar informações da Atvos nem apresentar uma recomendação para o case real.
+A matriz deve ser aplicada a um cenário hipotético ou à empresa pesquisada com dados públicos. Não utilizar informações internas nem apresentar uma recomendação sem critérios e evidências.
 :::
 
 ## Cenário analisado

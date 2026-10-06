@@ -16,7 +16,7 @@ O programa prioriza o desenvolvimento de:
 
 Desenvolver uma análise estruturada do setor sucroenergético e da operação de uma empresa do setor, evoluindo do entendimento da cadeia de valor e do papel de Suprimentos para o estudo da gestão de materiais MRO, dos modelos de centralização de estoques, do mercado fornecedor e dos fatores logísticos.
 
-O projeto serve como preparação para um case real com a Diretoria de Suprimentos da Atvos, sem antecipar ou reproduzir a solução do projeto.
+O projeto desenvolve uma análise educacional do setor sucroenergético com a São Martinho como referência pública.
 
 
 ## 🌱 Frentes de Estudo
@@ -166,7 +166,7 @@ npm start
 - Indicar limitações e possíveis vieses dos dados.
 - Em caso de dúvida, sinalizar a limitação e adotar estimativas conservadoras.
 - Aplicar frameworks à empresa pesquisada ou a cenários genéricos.
-- Não utilizar dados da Atvos nem antecipar ou reproduzir a solução do case real.
+- Não utilizar dados internos de empresas nem apresentar conclusões sem evidências.
 
 ### Interações e Feedback
 
@@ -200,7 +200,7 @@ npm start
 
 **Integrantes**: [Preencher]
 
-**Empresa estudada**: [Preencher]
+**Empresa estudada**: São Martinho S.A.
 
 ---
 
