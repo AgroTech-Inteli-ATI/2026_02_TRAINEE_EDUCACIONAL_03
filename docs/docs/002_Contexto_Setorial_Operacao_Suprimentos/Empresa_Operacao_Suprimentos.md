@@ -188,7 +188,7 @@ A manutenção é tratada como programa estruturado na companhia desde 1998, qua
 
 O capex total da safra 2025/26 não é apresentado consolidado no release; é a soma das três rubricas, calculada por nós, e a variação de +5,1% informada no guidance confirma a ordem de grandeza **(inferência)**.
 
-**O que a companhia chama de capex de manutenção.** Plantio, tratos culturais e manutenção agroindustrial.<sup>[18](#ref18)</sup> É uma rubrica que soma renovação de canavial e manutenção de fábrica, e por isso não pode ser lida como gasto exclusivamente industrial.
+**O que a companhia chama de capex de manutenção.** Plantio, tratos culturais e manutenção agroindustrial.<sup>[18](#ref18)</sup> É uma rubrica que soma renovação de canavial e manutenção de fábrica, e por isso não pode ser lida como gasto exclusivamente industrial, e muito menos como estimativa de gasto com materiais MRO. O valor de R$ 1.974,7 milhões serve apenas como evidência de que a companhia sustenta um volume relevante e recorrente de investimento em manutenção; a parcela específica de manutenção industrial, e dentro dela a parcela de materiais MRO, não é divulgada separadamente.
 
 **Sazonalidade.** O release explica a variação do capex de manutenção no 4T26, de janeiro a março, pela normalização do cronograma de entressafra, em comparação com uma safra anterior em que o plantio ficou mais concentrado no quarto trimestre.<sup>[18](#ref18)</sup> A manutenção industrial pesada ocorre na entressafra, entre o encerramento da moagem e o início do ciclo seguinte **(inferência)**.
 
@@ -201,7 +201,7 @@ O capex total da safra 2025/26 não é apresentado consolidado no release; é a 
 
 O achado mais relevante desta seção está na definição de custo adotada pela própria companhia. O Custo Caixa Total da operação de cana é calculado somando CPV, variação do valor justo do ativo biológico, despesas de vendas, despesas gerais e administrativas **e o capex de manutenção**.<sup>[18](#ref18)</sup> Na contabilidade gerencial da São Martinho, portanto, manutenção não é uma despesa periférica: entra diretamente no custo por tonelada que define a margem de açúcar e etanol **(inferência)**. É o argumento mais sólido de que gestão de materiais de manutenção é tema de margem, e não apenas de almoxarifado.
 
-**Hipótese para o Entregável 2.** Com quatro unidades, colheita totalmente mecanizada e cerca de R$ 2 bilhões por safra em capex de manutenção, a base de materiais de manutenção, reparo e operação deve ser extensa, pulverizada em muitos itens de baixo valor unitário e alta criticidade, com pico de consumo concentrado na entressafra.<sup>[18](#ref18)</sup><sup>[16](#ref16)</sup> É uma **(hipótese)** a testar com Curva ABC e classificação de criticidade, não um dado.
+**Hipótese para o Entregável 2.** Com quatro unidades, colheita totalmente mecanizada e um volume recorrente e relevante de capex de manutenção por safra — ainda que sem abertura pública da parcela de MRO —, a base de materiais de manutenção, reparo e operação deve ser extensa, pulverizada em muitos itens de baixo valor unitário e alta criticidade, com pico de consumo concentrado na entressafra.<sup>[18](#ref18)</sup><sup>[16](#ref16)</sup> É uma **(hipótese)** a testar com Curva ABC e classificação de criticidade, não um dado.
 
 ---
 
@@ -291,7 +291,7 @@ O trecho interno do fluxo não é público. Não há informação sobre como a o
 Registramos o que não foi possível encontrar, porque isso delimita até onde a análise pode ir.
 
 1. **Não existe política de compras ou de suprimentos pública.** A relação de estatuto, políticas e outros documentos traz Anticorrupção, Gestão de Riscos, Sustentabilidade, Qualidade e Segurança de Alimentos, Meio Ambiente e SSO, entre outras, e nenhuma específica de compras.<sup>[6](#ref6)</sup> O Manual do Fornecedor supre parcialmente essa ausência.<sup>[12](#ref12)</sup>
-2. **Nenhum dado sobre estoques de materiais de manutenção.** Não localizamos número de itens cadastrados, valor de estoque, quantidade e localização de almoxarifados, giro, cobertura em dias, taxa de ruptura interna nem percentual de compras emergenciais.
+2. **Nenhum dado sobre estoques de materiais de manutenção.** Não localizamos número de itens cadastrados, valor de estoque, quantidade e localização de almoxarifados, giro, cobertura em dias, taxa de ruptura interna nem percentual de compras emergenciais. A própria abertura do capex de manutenção (R$ 1.974,7 milhões na safra 2025/26) não separa a parcela de manutenção industrial da de renovação de canavial, e menos ainda a parcela de materiais MRO dentro da manutenção industrial.<sup>[18](#ref18)</sup>
 3. **Indicadores de manutenção apenas parciais.** O programa 98DE fixa a meta de disponibilidade, mas o resultado alcançado, o tempo médio entre falhas, as horas de parada não programada e a aderência ao plano de entressafra não são divulgados.<sup>[16](#ref16)</sup>
 4. **Resultados do IQF não são públicos.** A metodologia é aberta; as notas e o desempenho medido, não.<sup>[12](#ref12)</sup>
 5. **Estrutura de Suprimentos não é pública.** Não há organograma, número de compradores, divisão por categorias nem indicação de quais compras são conduzidas pelo corporativo e quais pelas unidades.
@@ -307,7 +307,7 @@ Registramos o que não foi possível encontrar, porque isso delimita até onde a
 
 ## Ligações com os demais blocos
 
-- **Manutenção compõe o custo caixa.** É a ponte entre empresa e Suprimentos que não depende de dado interno, e sustenta o bloco 4 da [apresentação executiva](/contexto-operacao/apresentacao-executiva).
+- **Manutenção compõe o custo caixa.** É a ponte entre empresa e Suprimentos que não depende de dado interno.
 - **Quatro unidades, dois estados, DIFAL distinto.** A geografia da companhia já contém o dilema de centralização tratado no Entregável 2, inclusive em seu aspecto tributário.
 - **OTIF, ruptura e 98DE já são vocabulário da companhia.** O Entregável 2 pode partir desses conceitos para Curva ABC, criticidade e nível de serviço sem introduzir premissa externa.
 
