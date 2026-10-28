@@ -7,34 +7,201 @@ description: Categorias de materiais, fornecedores, frete, prazo e nível de ser
 
 # Mercado fornecedor e logística
 
+As páginas anteriores mostraram quais materiais MRO sustentam a operação e como eles circulam dentro da empresa. Esta página olha para fora: de quem a São Martinho compra esses materiais, de onde eles vêm e o que pode atrasá-los ou encarecê-los até chegarem à unidade. A empresa não divulga seus fornecedores por categoria nem por região, por isso a análise combina três tipos de evidência: o que a própria São Martinho publica sobre seu processo de compras, o que fontes acadêmicas e setoriais mostram sobre os mercados fornecedores do setor e conceitos reconhecidos de gestão de suprimentos. Quando a evidência não permite afirmar que algo acontece na empresa, a conclusão aparece como **(inferência)** ou **(hipótese)**, conforme a [metodologia do grupo](/contexto-operacao/metodologia-fontes).
+
+## Como o mercado fornecedor foi analisado
+
+Nem todo material MRO se compra da mesma forma. Um parafuso padronizado pode ser comprado de muitos fornecedores; uma peça proprietária de colhedora pode ter um único. Para separar essas situações, usamos a lógica da matriz de Kraljic, proposta em 1983, que classifica cada item comprado em duas dimensões: o **impacto no resultado**, medido pelo volume comprado, pelo peso no custo total ou pelo efeito sobre a qualidade e o negócio, e o **risco de suprimento**, avaliado por disponibilidade, número de fornecedores, demanda concorrente, possibilidade de fabricar internamente, risco de armazenagem e possibilidade de substituição.<sup>[9](#ref9)</sup>
+
+O cruzamento das duas dimensões gera quatro quadrantes, cada um com uma estratégia de compra diferente:<sup>[9](#ref9)</sup>
+
+- **Não crítico** (baixo impacto, baixo risco): padronizar, otimizar volumes e simplificar o processo de compra.
+- **Alavancagem** (alto impacto, baixo risco): usar o poder de compra, negociar, substituir produtos e equilibrar contratos e compras pontuais.
+- **Gargalo** (baixo impacto, alto risco): garantir volume, mesmo pagando mais, proteger estoques e manter planos de contingência.
+- **Estratégico** (alto impacto, alto risco): previsão de demanda, análise de risco, relacionamento de longo prazo e planos de contingência.
+
+A matriz de Kraljic complementa a classificação por Curva ABC e criticidade feita em [Materiais e estoques MRO](/mro-centralizacao/materiais-mro#curva-abc-e-criticidade). A Curva ABC e a criticidade definem a **política de estoque** do item; a matriz de Kraljic define a **estratégia de compra e de relacionamento com o fornecedor**. Um mesmo item pode ser classe C, criticidade alta e gargalo: barato, essencial e difícil de obter **(inferência)**.
+
 ## Categorias e mercado fornecedor
+
+As categorias abaixo partem das listadas em [Materiais e estoques MRO](/mro-centralizacao/materiais-mro#conceito-e-categorias), reagrupadas pelo tipo de mercado que as atende, e não pela natureza técnica do material. O reagrupamento é do grupo, porque não localizamos segmentação de compras publicada pela empresa.
 
 | Categoria MRO | Características | Estrutura do mercado fornecedor | Riscos de abastecimento | Fonte |
 |---|---|---|---|---|
-| [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-| [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-| [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
+| Peças e componentes da frota agrícola (colhedoras, tratores, transbordos e caminhões) | Colheita 100% mecanizada; segundo reportagem de 2025, a frota consumia cerca de 80 milhões de litros de diesel por ano, o que dá a ordem de grandeza do uso das máquinas. Peças de desgaste com consumo contínuo durante a safra **(inferência)** | O segmento de colhedoras de cana é dominado por poucos fabricantes: Case IH (CNH), John Deere e Valtra (AGCO), segundo reportagem de 2018. A São Martinho cedeu áreas para os testes da colhedora a etanol da Case IH, mas a composição da sua frota por marca não é pública. Itens de desgaste também têm oferta de peças compatíveis, como registrado em [drivers e desafios](/contexto-operacao/drivers-tendencias-desafios) | Dependência do fabricante para peças proprietárias e para a informação técnica necessária ao cadastro; modelos novos, como as colhedoras de duas linhas e a etanol, sem histórico de consumo **(hipótese)**; colhedora parada interrompe uma frente de colheita **(inferência)** | <sup>[10](#ref10)</sup> <sup>[12](#ref12)</sup> <sup>[13](#ref13)</sup> <sup>[18](#ref18)</sup> |
+| Componentes e serviços dos equipamentos industriais da rota cana (moendas, preparo, caldeiras, turbinas, centrífugas e bombas) | Itens de alto valor e alta criticidade, parte deles fabricada ou recuperada sob encomenda **(hipótese)**. A manutenção não recorrente da caldeira da Iracema entrou no capex de expansão da safra 2025/26, o que mostra o porte que uma intervenção pode atingir | Polo de bens de capital e serviços em Sertãozinho (SP), que chegou a reunir mais de 700 empresas desses segmentos, 85% delas voltadas ao setor sucroenergético, produzindo máquinas, equipamentos e peças para montagem e manutenção de usinas. No arranjo produtivo de Piracicaba, o elo de fabricação de insumos e máquinas reunia cerca de 42% das empresas da cadeia local, com dados de 2005 | Fornecedores expostos ao ciclo do setor: entre 2014 e 2017, mais de 50 unidades fabris fecharam em Sertãozinho, e a Dedini, maior fabricante de bens de capital do setor, entrou em recuperação judicial em 2015. Disputa por capacidade quando várias usinas param ao mesmo tempo **(hipótese)** | <sup>[11](#ref11)</sup> <sup>[14](#ref14)</sup> <sup>[19](#ref19)</sup> |
+| Equipamentos e peças da rota de milho (Unidade Boa Vista) | Base de ativos nova e em expansão: a Segunda Fase soma R$ 1,1 bilhão, 635 mil t de milho por ano e início de operação previsto para o segundo semestre de 2027. O guidance 2026/27 já prevê um período maior de manutenção na unidade | Não localizamos informação pública sobre os fornecedores de equipamentos e peças da planta de milho. A moagem a seco e a fermentação do milho usam equipamentos diferentes da rota de cana, como descrito na [cadeia de valor](/contexto-operacao/cadeia-valor-operacao) **(inferência)** | Itens sem histórico de consumo; dependência dos fornecedores originais durante a implantação e o comissionamento **(hipótese)**; maior distância dos polos fornecedores paulistas (ver [distâncias](#distância-entre-unidades-e-polos-fornecedores)) | <sup>[15](#ref15)</sup> <sup>[19](#ref19)</sup> |
+| Materiais elétricos, automação e instrumentação | Presentes em todas as unidades e rotas (motores, inversores, sensores, componentes de painéis). Parte é padronizada e parte está ligada a uma plataforma ou marca específica **(inferência)** | Fabricantes e distribuidores industriais **(inferência)**. O Manual do Fornecedor exige que o fornecedor informe a marca completa e verifique se o descritivo do material indica marcas já homologadas | Quando o descritivo fixa a marca, a substituição fica limitada, o que eleva o risco de suprimento no sentido de Kraljic **(inferência)**; obsolescência tecnológica de componentes, tratada em [Materiais MRO](/mro-centralizacao/materiais-mro#obsolescência) | <sup>[9](#ref9)</sup> <sup>[16](#ref16)</sup> |
+| Consumíveis e materiais de uso geral (rolamentos, parafusos, vedações, filtros, lubrificantes, EPIs e ferramentas) | Muitos códigos, baixo valor unitário e demanda pulverizada. Em estudo de caso numa usina de grande porte, só a manutenção agrícola tinha 340 tipos de parafuso e 202 tipos de válvula cadastrados | Mercado com muitos fornecedores por empresa e custo de transação alto em relação ao valor comprado; a literatura sobre compras de MRO defende integrar e consolidar essas aquisições, inclusive por meio de distribuidores integrados | Baixo risco de continuidade por item, mas proliferação de cadastro, compras duplicadas e custo administrativo elevado | <sup>[6](#ref6)</sup> <sup>[10](#ref10)</sup> |
+| Serviços de manutenção (caldeiraria, usinagem, recuperação de componentes, montagem e mão de obra especializada) | Executados dentro das unidades e concentrados na entressafra **(inferência)** | Prestadores regionais; Sertãozinho é descrito também como polo de prestação de serviços produtivos para usinas. Prestadores que atuam nas unidades passam por análise documental (72 horas para envio e até 48 horas para análise) e integração presencial | Várias usinas demandando os mesmos prestadores na mesma janela **(hipótese)**; o prazo de mobilização passa a fazer parte do lead time do serviço **(inferência)** | <sup>[14](#ref14)</sup> <sup>[16](#ref16)</sup> |
+
+A tabela mostra que o mercado fornecedor de MRO da São Martinho não é um só. Há pelo menos três situações distintas **(inferência)**:
+
+1. **Mercados concentrados em fabricantes**, como o das máquinas agrícolas, em que poucas empresas controlam o produto original e a informação técnica. Aqui o risco não é de preço, e sim de disponibilidade e de dependência.
+2. **Mercados regionais especializados**, como o de bens de capital e serviços industriais concentrados em Sertãozinho e Piracicaba. Eles estão perto de três das quatro unidades, mas são sensíveis ao ciclo do próprio setor, que é o cliente principal: quando as usinas cortam investimento, os fornecedores enfraquecem,<sup>[14](#ref14)</sup> e a base de fornecimento disponível na retomada tende a ser menor **(inferência)**.
+3. **Mercados pulverizados**, como o de consumíveis, com muitas alternativas e baixo risco por item, em que o problema dominante é o custo de transação e a desorganização do cadastro.<sup>[6](#ref6)</sup>
+
+## Padronizados e críticos na matriz de Kraljic
+
+A posição exata de cada categoria na matriz depende de dados de gasto e de criticidade que não são públicos. A tabela abaixo é, portanto, uma **(hipótese)** de enquadramento, útil para mostrar que cada tipo de material pede uma estratégia diferente.
+
+| Quadrante | Categorias que tendem a cair aqui | Estratégia indicada pela literatura | Leitura para a São Martinho |
+|---|---|---|---|
+| Não crítico | Consumíveis padronizados de baixo valor e com muitas fontes | Padronizar, otimizar volumes e simplificar o processo de compra<sup>[9](#ref9)</sup> | Reduzir códigos e fornecedores e automatizar a reposição libera Suprimentos para as categorias de maior risco **(inferência)** |
+| Alavancagem | Itens de gasto alto com várias fontes, como lubrificantes, pneus, peças de desgaste com similares e materiais elétricos padronizados | Usar o poder de compra, negociar, substituir produtos e equilibrar contratos e compras pontuais<sup>[9](#ref9)</sup> | Quatro unidades comprando os mesmos itens somam volume para negociação conjunta **(inferência)** |
+| Gargalo | Peças proprietárias de baixo valor e sem substituto, como componentes específicos de colhedora ou de automação | Garantir volume, proteger estoques e manter planos de contingência<sup>[9](#ref9)</sup> | Corresponde ao quadrante "classe C com criticidade alta" de [Materiais MRO](/mro-centralizacao/materiais-mro#curva-abc-e-criticidade), onde estão as rupturas mais danosas e mais evitáveis **(inferência)** |
+| Estratégico | Componentes pesados sob encomenda (moenda, caldeira, turbina) e serviços especializados de entressafra | Previsão de demanda, análise de risco, relacionamento de longo prazo e contingência<sup>[9](#ref9)</sup> | Exige planejar a entressafra com o fornecedor antes da janela, e não durante ela **(inferência)** |
+
+## Critérios para selecionar e avaliar fornecedores
+
+A São Martinho já publica parte dos critérios que usa. Os demais critérios abaixo vêm da literatura e foram incluídos porque respondem a riscos identificados nesta página.
+
+| Critério | O que avalia | Evidência na São Martinho | Por que pesa em MRO |
+|---|---|---|---|
+| Qualidade e conformidade técnica | Aderência à especificação, embalagem e transporte adequados | Pilar Qualidade do IQF; homologação técnica exigida para ser premiado na cotação quando o fornecimento afeta qualidade (ISO 9001), meio ambiente (ISO 14001) ou segurança alimentar (GMP+FSA)<sup>[16](#ref16)</sup> | Material fora de especificação pode causar nova falha depois da manutenção **(inferência)** |
+| Pontualidade | Entrega no prazo e completa (OTIF) | Pilar Pontualidade do IQF; em entregas CIF, mede-se pela data de remessa; em FOB, pela data de fatura<sup>[16](#ref16)</sup> | Atraso em item crítico vira parada ou compra emergencial; além do prazo médio, a variabilidade do prazo aumenta o estoque de segurança necessário (ver [lead time](/mro-centralizacao/materiais-mro#lead-time)) |
+| Saúde e segurança ocupacional | Conduta e acidentes em atividades nas unidades | Pilar SSO do IQF<sup>[16](#ref16)</sup> | Essencial para prestadores de serviço que trabalham dentro das usinas **(inferência)** |
+| Relacionamento e comunicação | Atendimento, clareza e retorno sobre entregas | Pilar Relacionamento do IQF; status padronizados de entrega, como indisponibilidade de estoque com motivo<sup>[16](#ref16)</sup> | Aviso antecipado de atraso permite reagir antes da ruptura |
+| Saúde financeira | Capacidade de continuar fornecendo | Verificada no cadastro do fornecedor<sup>[16](#ref16)</sup> | O polo fornecedor já passou por fechamentos de fábricas e pela recuperação judicial da Dedini, ligados ao ciclo do setor<sup>[14](#ref14)</sup> |
+| Custo total de aquisição | Preço somado aos demais custos ligados à compra | Não localizamos referência pública ao uso desse conceito pela empresa | O custo total olha além do preço de compra;<sup>[5](#ref5)</sup> em MRO, inclui frete, DIFAL, custo de uma compra emergencial e custo de manter estoque **(inferência)** |
+| Risco de suprimento | Disponibilidade, número de fontes e possibilidade de substituição | Não localizamos critério público de risco de suprimento; o mais próximo é o Programa Semente, que seleciona fornecedores estratégicos por volume de gastos, relevância da compra e risco ESG<sup>[16](#ref16)</sup> | É o eixo vertical da matriz de Kraljic e define quais itens precisam de fonte alternativa ou estoque protegido<sup>[9](#ref9)</sup> |
+| Informação técnica do produto | Fornecimento de catálogo, especificação e árvore de peças | Não localizamos exigência pública | No estudo de caso em usina, a falta dessa informação atrasava o cadastro de peças novas e gerava compras emergenciais<sup>[10](#ref10)</sup> |
+
+Esses critérios servem para escolher e acompanhar fornecedores, e não para comparar modelos de estoque. Parte deles, porém, como custo total, prazo e risco de suprimento, também pesa na comparação entre estoque centralizado, descentralizado e híbrido e pode ser aproveitada na [matriz de decisão multicritério](/mro-centralizacao/matriz-decisao-multicriterio), onde ficam a escolha e o peso dos critérios **(inferência)**.
 
 ## Fatores logísticos
 
 | Fator | Como influencia a decisão | Evidência ou exemplo público | Limitação |
 |---|---|---|---|
-| Frete | [Preencher] | [Preencher] | [Preencher] |
-| Prazo e lead time | [Preencher] | [Preencher] | [Preencher] |
-| Distância | [Preencher] | [Preencher] | [Preencher] |
-| Nível de serviço | [Preencher] | [Preencher] | [Preencher] |
-| Tributação, em nível introdutório | [Preencher] | [Preencher] | [Preencher] |
+| Frete | Cresce com a distância e com a urgência; uma entrega expressa em ruptura custa mais do que uma entrega planejada **(inferência)** | Em entregas CIF o fornecedor responde pelo transporte; em FOB, a São Martinho. Em caso de devolução, o frete fica com o fornecedor.<sup>[16](#ref16)</sup> Os pisos mínimos do frete rodoviário são calculados por quilômetro rodado e por eixo carregado, considerando distância e tipo de carga.<sup>[2](#ref2)</sup> O transporte responde por mais de 63,5% dos custos logísticos das empresas, segundo levantamento de 2017 da Fundação Dom Cabral citado pela Infra S.A.<sup>[7](#ref7)</sup> | Não há dado público sobre o frete pago pela empresa nem sobre a proporção de compras CIF e FOB |
+| Prazo e lead time | Quanto maior e mais variável o prazo, maior o estoque de segurança necessário (ver [lead time](/mro-centralizacao/materiais-mro#lead-time)) | A régua de pontualidade em CIF inclui processamento interno do fornecedor, disponibilidade do produto, faturamento e trânsito.<sup>[16](#ref16)</sup> No estudo de caso em usina, o cadastro de uma peça nova podia levar até três dias e a compra tinha mais 24 horas, somando cerca de quatro dias internos ao prazo do fornecedor<sup>[10](#ref10)</sup> | Os lead times reais da São Martinho, por fornecedor ou categoria, não são públicos |
+| Distância | Define o tempo de trânsito e o custo do frete e limita a capacidade de resposta em emergências **(inferência)** | Cada unidade paulista fica a no máximo 68 km em linha reta do polo fornecedor mais próximo (Sertãozinho ou Piracicaba); a Boa Vista fica a cerca de 395 km de Sertãozinho (ver tabela abaixo)<sup>[8](#ref8)</sup> <sup>[17](#ref17)</sup> | Distâncias em linha reta, menores que as rodoviárias; a localização real dos fornecedores da empresa não é pública |
+| Nível de serviço | Define quanto a empresa pode depender do fornecedor em vez de manter estoque próprio **(inferência)** | A pontualidade, medida por OTIF, é um dos pilares do IQF, com devolutiva trimestral; nota abaixo de 6 em qualquer pilar exige plano de ação corretiva<sup>[16](#ref16)</sup> | O resultado medido não é público; o OTIF mede o fornecedor perante a empresa, e não o atendimento do almoxarifado à manutenção (ver [glossário](/contexto-operacao/glossario)) |
+| Tributação, em nível introdutório | Muda a forma de calcular e recolher o imposto quando a compra ou a movimentação de materiais cruza a divisa entre São Paulo e Goiás e faz o custo final depender da alíquota interna do estado de destino **(inferência)** | Alíquotas interestaduais de ICMS, DIFAL na compra para uso e consumo, crédito de uso e consumo adiado para 2033 e não incidência em transferências entre estabelecimentos do mesmo titular (ver [seção própria](#tributação-em-nível-introdutório))<sup>[1](#ref1)</sup> <sup>[3](#ref3)</sup> <sup>[16](#ref16)</sup> | O enquadramento fiscal de cada item e o tratamento em cada estado exigem validação da área tributária |
+| Sazonalidade | Concentra compras e serviços na entressafra e torna o calendário de cada unidade uma restrição logística | No 4T26 (janeiro a março de 2026), a Boa Vista ainda moeu cerca de 236 mil t de cana, depois do encerramento da moagem nas unidades paulistas em dezembro de 2025 (ver [retomada](/mro-centralizacao/retomada-contexto)); o guidance 2026/27 prevê período maior de manutenção na Boa Vista<sup>[19](#ref19)</sup> | O calendário interno de paradas por unidade não é público |
+| Infraestrutura e modal | Materiais MRO chegam às unidades, em geral, por rodovia, o que expõe o abastecimento às condições das estradas e ao custo do frete rodoviário **(inferência)** | A matriz brasileira de transporte de cargas é cerca de 68,2% rodoviária (ano-base 2021).<sup>[7](#ref7)</sup> O ramal ferroviário da Usina São Martinho atende ao escoamento de açúcar e etanol até o Porto de Santos<sup>[17](#ref17)</sup> | A forma de entrega dos materiais MRO às unidades não é descrita em fonte pública |
+
+### Distância entre unidades e polos fornecedores
+
+A tabela usa as coordenadas das sedes municipais e calcula a distância em linha reta. Sertãozinho e Piracicaba entram como referência porque as fontes acadêmicas os identificam como polos de bens de capital, peças e serviços para o setor;<sup>[11](#ref11)</sup> <sup>[14](#ref14)</sup> Goiânia entra como referência por ser a capital de Goiás.
+
+| Unidade (município) | Até Sertãozinho (SP) | Até Piracicaba (SP) | Até Goiânia (GO) |
+|---|---:|---:|---:|
+| Usina São Martinho (Pradópolis, SP) | 27 km | 159 km | 535 km |
+| Usina Santa Cruz (Américo Brasiliense, SP) | 68 km | 122 km | 574 km |
+| Usina Iracema (Iracemápolis, SP) | 168 km | 21 km | 681 km |
+| Usina Boa Vista (Quirinópolis, GO) | 395 km | 559 km | 233 km |
+
+<p style={{textAlign: 'center'}}>Fonte: Elaborado pelos autores (2026), com coordenadas das sedes municipais<sup>[8](#ref8)</sup> e localização das unidades.<sup>[17](#ref17)</sup></p>
+
+Entre as unidades, as distâncias seguem o mesmo padrão: as paulistas estão a 41 km (São Martinho e Santa Cruz), 113 km (Santa Cruz e Iracema) e 147 km (São Martinho e Iracema) umas das outras, enquanto a Boa Vista fica a 409 km da São Martinho, 439 km da Santa Cruz e 552 km da Iracema.<sup>[8](#ref8)</sup>
+
+A leitura é direta: as três unidades paulistas estão perto dos polos fornecedores do setor e próximas entre si, o que favorece entregas curtas e a troca de materiais entre elas. A Boa Vista está a cerca de 400 km do polo mais próximo, em outro estado, e é justamente a unidade com a base de ativos mais diferente das demais. É a principal assimetria logística da empresa e deve aparecer na comparação entre os [modelos de gestão e armazenagem](/mro-centralizacao/modelos-gestao-armazenagem) **(inferência)**.
+
+### Tributação em nível introdutório
+
+Este tema é apresentado apenas para mostrar por que a tributação entra na decisão logística; não substitui análise tributária especializada.
+
+- **Alíquota interestadual.** Nas operações entre estados, a alíquota de ICMS é de 12%; nas operações que saem do Sul e do Sudeste para o Norte, o Nordeste, o Centro-Oeste e o Espírito Santo, é de 7%.<sup>[3](#ref3)</sup> Uma compra feita em São Paulo para a Boa Vista segue a regra de 7%; uma compra feita em Goiás para uma unidade paulista, a de 12%. Mercadorias importadas têm regras próprias, que não foram tratadas aqui.
+- **DIFAL.** Quando um contribuinte compra de outro estado um bem para uso, consumo ou ativo fixo, deve ao estado de destino a diferença entre a alíquota interna desse estado e a alíquota interestadual.<sup>[1](#ref1)</sup> Na prática, somando a alíquota interestadual e o DIFAL, a carga total tende a ficar próxima da alíquota interna do estado de destino. O que muda é a divisão do imposto entre os estados e a obrigação de calcular e recolher a diferença **(inferência)**. A São Martinho orienta seus fornecedores a preencher o DIFAL conforme a unidade compradora e o estado de destino, o que mostra que o fator já está presente nas cotações.<sup>[16](#ref16)</sup>
+- **Crédito de uso e consumo.** O direito ao crédito de ICMS sobre mercadorias destinadas ao uso ou consumo do estabelecimento só vale para entradas a partir de 1º de janeiro de 2033.<sup>[1](#ref1)</sup> Para materiais enquadrados como uso e consumo, o imposto pago tende a ser custo, e não crédito recuperável **(inferência)**. Nem todo material MRO tem esse enquadramento; peças incorporadas ao ativo, por exemplo, seguem outras regras.
+- **Transferência entre unidades.** Pela redação atual da Lei Complementar nº 87/1996, conhecida como Lei Kandir, a saída de mercadoria para outro estabelecimento do mesmo titular não é fato gerador do ICMS, com regras próprias para a transferência de créditos.<sup>[1](#ref1)</sup> O tratamento do DIFAL nessas transferências, quando o material é de uso e consumo, depende da legislação de cada estado e precisa ser validado; o ponto está registrado nas [lacunas](#lacunas).
+- **Reforma tributária.** A reforma do consumo entrou em fase de testes em 2026, prevê a cobrança da CBS a partir de 2027, a transição do IBS a partir de 2029 e a extinção do ICMS em 2033.<sup>[4](#ref4)</sup> Uma decisão estrutural de estoque tomada hoje vai operar, em boa parte, sob regras tributárias diferentes das atuais **(inferência)**.
+
+## Análise crítica dos fatores
+
+A tabela reúne os fatores que, pelas evidências, mais afetam o abastecimento de MRO da São Martinho e responde, para cada um, às mesmas perguntas: qual é a evidência, como afeta o abastecimento, qual a consequência possível e o que isso implica para o projeto.
+
+| Fator | Evidência | Como afeta o abastecimento | Consequência potencial | Implicação para o projeto |
+|---|---|---|---|---|
+| Concentração de fabricantes na frota agrícola | Poucos fabricantes dominam as colhedoras de cana; colheita 100% mecanizada<sup>[12](#ref12)</sup> <sup>[18](#ref18)</sup> | Peças proprietárias e informação técnica dependem do fabricante e da sua rede **(inferência)** | Ruptura de item barato e crítico durante a safra, com frente de colheita parada **(hipótese)** | Itens da frota devem ser analisados separadamente na matriz de Kraljic e na criticidade, e não pela média do estoque |
+| Polo de bens de capital exposto ao ciclo do setor | Mais de 50 unidades fabris fechadas em Sertãozinho entre 2014 e 2017; Dedini em recuperação judicial em 2015<sup>[14](#ref14)</sup> | A base de fornecedores encolhe justamente quando o setor está pressionado **(inferência)** | Perda de fornecedor de componente estratégico e alongamento do lead time **(hipótese)** | Saúde financeira e fonte alternativa entram como critérios de avaliação de fornecedor |
+| Demanda concentrada na entressafra | Calendários de moagem diferentes entre São Paulo e Goiás (ver [retomada](/mro-centralizacao/retomada-contexto)); variação do capex de manutenção do 4T26 explicada pelo cronograma de entressafra<sup>[19](#ref19)</sup> | Compras e serviços disputam a mesma capacidade dos fornecedores em poucos meses **(inferência)** | Atraso de peça ou serviço prolonga a parada e ameaça o início da safra **(hipótese)** | Calendários desencontrados podem permitir escalonar a demanda entre unidades, ponto a considerar nos modelos de estoque **(hipótese)** |
+| Assimetria geográfica da Boa Vista | Cerca de 395 km em linha reta até Sertãozinho; única unidade em Goiás<sup>[8](#ref8)</sup> <sup>[17](#ref17)</sup> | Trânsito mais longo e frete mais caro para materiais vindos dos polos paulistas **(inferência)** | Lead time maior e mais variável na unidade com base de ativos em expansão **(hipótese)** | Qualquer modelo de estoque precisa tratar a Boa Vista como caso próprio; ela não pode ser somada às paulistas sem ajuste **(inferência)** |
+| Tributação interestadual | Alíquotas de 7% e 12%; DIFAL na compra para uso e consumo; crédito adiado para 2033; DIFAL já tratado nas cotações<sup>[1](#ref1)</sup> <sup>[3](#ref3)</sup> <sup>[16](#ref16)</sup> | Para material de uso e consumo, o ICMS pago tende a ser custo, e não crédito, até 2033; na compra interestadual, a carga se aproxima da alíquota interna do destino, com obrigação adicional de recolher o DIFAL **(inferência)** | Custo tributário que depende do estado onde o material é consumido, mais complexidade fiscal para mover materiais entre São Paulo e Goiás **(inferência)** | A comparação entre modelos deve usar custo total, e não preço; o tema exige validação tributária e deve considerar a transição da reforma<sup>[4](#ref4)</sup> <sup>[5](#ref5)</sup> |
+| Proliferação de cadastro e itens novos | 340 tipos de parafuso e 202 de válvula na manutenção agrícola de uma usina estudada; cadastro de peça nova como causa raiz de compras emergenciais; novos equipamentos na São Martinho<sup>[10](#ref10)</sup> <sup>[15](#ref15)</sup> <sup>[18](#ref18)</sup> | Itens iguais com códigos diferentes e itens novos sem código atrasam a compra e escondem saldo **(inferência)** | Compra emergencial, duplicidade de estoque e dificuldade de compartilhar material entre unidades **(hipótese)** | Padronização de cadastro é pré-condição para comparar ou compartilhar estoques entre unidades **(inferência)** |
 
 ## Padronização e cadastro
 
-[Analisar como especificações, duplicidades e racionalização de cadastros afetam compras e estoques.]
+O cadastro de materiais é o ponto em que mercado fornecedor e gestão de estoques se encontram. A São Martinho já trata parte do problema do lado do fornecedor: exige o nome completo da marca, sem abreviações, e pede que o fornecedor confira se o descritivo do material indica marcas homologadas antes de cotar.<sup>[16](#ref16)</sup> Isso ajuda a manter descrições consistentes, mas não resolve, sozinho, a duplicidade criada dentro da empresa quando o mesmo item recebe descrições diferentes em unidades diferentes, problema tratado em [Materiais MRO](/mro-centralizacao/materiais-mro#obsolescência) **(inferência)**.
+
+O estudo de caso em uma usina de grande porte mostra o custo de um cadastro lento. Ali, a causa raiz das compras emergenciais de peças agrícolas era o cadastro de peças nunca usadas antes, porque máquinas e equipamentos estão em constante atualização; o cadastro de cada peça podia levar até três dias, e a própria empresa dependia de pedir especificações aos fornecedores. Entre as propostas dos autores estão o pré-cadastro de peças críticas e o compromisso dos fornecedores homologados de entregar catálogos com a árvore de peças e as especificações dos equipamentos.<sup>[10](#ref10)</sup>
+
+Esse resultado não é da São Martinho, mas o mesmo mecanismo pode ocorrer nela: as colhedoras de duas linhas e a etanol e os ativos da Segunda Fase do etanol de milho tendem a trazer peças sem histórico e sem código **(hipótese)**.<sup>[15](#ref15)</sup> <sup>[18](#ref18)</sup> Há ainda uma consequência para a centralização: só é possível compartilhar estoque entre unidades quando o mesmo material tem o mesmo código em todas elas. Sem cadastro padronizado, o estoque de uma unidade fica invisível para as outras, e a comparação entre modelos centralizado, descentralizado e híbrido perde a base **(inferência)**.
+
+## Oportunidades de melhoria
+
+As oportunidades abaixo são **(hipóteses)** derivadas das evidências desta página. Não são recomendações à empresa, porque dependeriam de dados internos para serem validadas.
+
+1. **Segmentar compras de MRO pela matriz de Kraljic**, cruzando com a Curva ABC e a criticidade, para que cada categoria receba a estratégia adequada em vez de um processo único.<sup>[9](#ref9)</sup>
+2. **Consolidar consumíveis** em menos fornecedores e contratos, reduzindo custo de transação e códigos duplicados.<sup>[6](#ref6)</sup>
+3. **Planejar a entressafra com os fornecedores estratégicos antes da janela de parada**, aproveitando que os calendários das unidades não coincidem.<sup>[9](#ref9)</sup> <sup>[19](#ref19)</sup>
+4. **Exigir informação técnica na compra de equipamento novo**, como catálogo e árvore de peças, para cadastrar as peças antes da primeira falha.<sup>[10](#ref10)</sup>
+5. **Qualificar fontes alternativas para itens de gargalo** e acompanhar a saúde financeira dos fornecedores estratégicos.<sup>[9](#ref9)</sup> <sup>[14](#ref14)</sup>
+6. **Medir o lead time real por fornecedor e por unidade**, separando a Boa Vista das unidades paulistas, conforme o indicador proposto em [Materiais MRO](/mro-centralizacao/materiais-mro#indicadores).
+7. **Comparar alternativas pelo custo total**, incluindo frete, tributação e custo de ruptura, e não pelo preço de compra.<sup>[5](#ref5)</sup>
 
 ## Síntese de riscos
 
-[Priorizar os fatores mais relevantes ao cenário pesquisado e justificar.]
+| Prioridade | Risco | Por que priorizamos | Tipo de evidência |
+|---:|---|---|---|
+| 1 | Ruptura de peça crítica da frota agrícola durante a safra | Combina mercado concentrado, colheita totalmente mecanizada e meta alta de disponibilidade (ver [retomada](/mro-centralizacao/retomada-contexto)) | Fatos sobre mercado e operação; efeito na empresa é **(hipótese)** |
+| 2 | Atraso de componente ou serviço estratégico na entressafra | A manutenção pesada se concentra em poucos meses e depende de fornecedores regionais especializados | Fatos sobre calendário e polo fornecedor; disputa por capacidade é **(hipótese)** |
+| 3 | Lead time maior e mais variável na Boa Vista | Distância dos polos fornecedores, base de ativos em expansão e período de manutenção mais longo previsto para 2026/27 | Distâncias calculadas e fatos da empresa; efeito no lead time é **(inferência)** |
+| 4 | Itens novos sem cadastro nem histórico | Novas colhedoras e Segunda Fase do etanol de milho; mecanismo documentado em estudo de caso | Fatos da empresa e estudo de caso; ocorrência na empresa é **(hipótese)** |
+| 5 | Enfraquecimento de fornecedores no ciclo de baixa do setor | Fechamento de mais de 50 fábricas em Sertãozinho entre 2014 e 2017 e recuperação judicial da Dedini em 2015 | Fato setorial documentado; impacto na empresa é **(hipótese)** |
+| 6 | Custo de transação e duplicidade em consumíveis | Muitos códigos e fornecedores para itens de baixo valor | Literatura e estudo de caso; risco de custo, não de continuidade |
+
+Os dois primeiros riscos ameaçam a continuidade da operação; o terceiro e o quarto ameaçam a capacidade de planejar; os dois últimos afetam principalmente o custo. Essa ordem coincide com a lógica de criticidade usada em [Materiais MRO](/mro-centralizacao/materiais-mro#curva-abc-e-criticidade): primeiro o que pode parar a operação, depois o que encarece ou desorganiza **(inferência)**.
+
+## Lacunas
+
+- **Fornecedores por categoria e região.** A empresa informa 2.841 fornecedores diretos de bens e serviços, mas não localizamos a divisão por categoria de material nem por localização.<sup>[18](#ref18)</sup>
+- **Marcas da frota.** Sabemos que a empresa testou a colhedora a etanol da Case IH, mas a composição da frota por fabricante não é pública.<sup>[13](#ref13)</sup>
+- **Prazos, contratos e frete.** Lead times reais, contratos de fornecimento, consignação e custos de frete não são divulgados.
+- **Fornecedores da rota de milho.** Não localizamos informação sobre os fornecedores de equipamentos e peças da planta da Boa Vista.
+- **Enquadramento tributário.** A classificação fiscal dos materiais MRO e o tratamento do DIFAL em transferências entre unidades precisam ser validados por especialista.
+- **Datas das fontes setoriais.** A reportagem sobre colhedoras é de 2018, o estudo sobre Sertãozinho cobre a década de 2010 e o estudo sobre Piracicaba usa dados de 2005. Servem para descrever a estrutura dos mercados, mas não a situação atual de cada fornecedor.<sup>[11](#ref11)</sup> <sup>[12](#ref12)</sup> <sup>[14](#ref14)</sup>
+- **Distâncias.** Foram calculadas em linha reta entre sedes municipais e subestimam as distâncias rodoviárias.
 
 ---
 
 ## Fontes
 
-- [Autor ou instituição. Título. Ano. Link. Data de acesso.]
+1. <a id="ref1"></a>BRASIL. Lei Complementar nº 87, de 13 de setembro de 1996. Dispõe sobre o imposto dos Estados e do Distrito Federal sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação, e dá outras providências. Brasília, DF: Presidência da República, 1996. Texto compilado, com as alterações das Leis Complementares nº 171/2019 e nº 204/2023. Disponível em: [https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp87.htm). Acesso em: 27 out. 2026.
+
+2. <a id="ref2"></a>BRASIL. Lei nº 13.703, de 8 de agosto de 2018. Institui a Política Nacional de Pisos Mínimos do Transporte Rodoviário de Cargas. Brasília, DF: Presidência da República, 2018. Disponível em: [https://legis.senado.leg.br/norma/27452476/publicacao/27452597](https://legis.senado.leg.br/norma/27452476/publicacao/27452597). Acesso em: 27 out. 2026.
+
+3. <a id="ref3"></a>BRASIL. Senado Federal. Resolução nº 22, de 19 de maio de 1989. Estabelece alíquotas do Imposto sobre Operações Relativas a Circulação de Mercadorias e sobre Prestação de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação, nas operações e prestações interestaduais. Brasília, DF: Senado Federal, 1989. Disponível em: [https://www2.camara.leg.br/legin/fed/ressen/1989/resolucao-22-19-maio-1989-481183-publicacaooriginal-1-pl.html](https://www2.camara.leg.br/legin/fed/ressen/1989/resolucao-22-19-maio-1989-481183-publicacaooriginal-1-pl.html). Acesso em: 27 out. 2026.
+
+4. <a id="ref4"></a>CÂMARA DOS DEPUTADOS. Reforma tributária começa fase de transição com testes de novos impostos em 2026. Agência Câmara de Notícias, Brasília, 6 jan. 2026. Disponível em: [https://www.camara.leg.br/noticias/1237089-reforma-tributaria-comeca-fase-de-transicao-com-testes-de-novos-impostos-em-2026/](https://www.camara.leg.br/noticias/1237089-reforma-tributaria-comeca-fase-de-transicao-com-testes-de-novos-impostos-em-2026/). Acesso em: 27 out. 2026.
+
+5. <a id="ref5"></a>ELLRAM, L. M. Total cost of ownership: an analysis approach for purchasing. *International Journal of Physical Distribution & Logistics Management*, v. 25, n. 8, p. 4-23, 1995. DOI: 10.1108/09600039510099928. Disponível em: [https://www.emerald.com/insight/content/doi/10.1108/09600039510099928/full/html](https://www.emerald.com/insight/content/doi/10.1108/09600039510099928/full/html). Acesso em: 27 out. 2026.
+
+6. <a id="ref6"></a>HUANG, Z.; ZHANG, Y.; YANG, H.; ZHOU, Y.; CUI, L. Neural network-based procurement mode selection of MRO materials. In: INTERNATIONAL CONFERENCE ON ENTERPRISE INFORMATION SYSTEMS, 13., 2011. *Proceedings* [...]. [S. l.]: SciTePress, 2011. p. 523-526. DOI: 10.5220/0003589205230526. Disponível em: [https://www.scitepress.org/PublishedPapers/2011/35892/35892.pdf](https://www.scitepress.org/PublishedPapers/2011/35892/35892.pdf). Acesso em: 27 out. 2026.
+
+7. <a id="ref7"></a>INFRA S.A. *Infraestrutura de transportes e o impacto em custos logísticos*. [S. l.]: Infra S.A.; Observatório Nacional de Transporte e Logística, maio 2025. Disponível em: [https://ontl.infrasa.gov.br/wp-content/uploads/2025/05/Infraestrutura-de-Transportes-e-o-Impacto-em-Custos-Logisticos.pdf](https://ontl.infrasa.gov.br/wp-content/uploads/2025/05/Infraestrutura-de-Transportes-e-o-Impacto-em-Custos-Logisticos.pdf). Acesso em: 27 out. 2026.
+
+8. <a id="ref8"></a>KELVINS. *Municípios brasileiros*: código IBGE, nome e coordenadas geográficas das sedes dos municípios brasileiros. [S. l.]: GitHub, [s. d.]. Base de dados usada para calcular as distâncias em linha reta. Disponível em: [https://github.com/kelvins/municipios-brasileiros](https://github.com/kelvins/municipios-brasileiros). Acesso em: 27 out. 2026.
+
+9. <a id="ref9"></a>KRALJIC, P. Purchasing must become supply management. *Harvard Business Review*, set./out. 1983. Disponível em: [https://hbr.org/1983/09/purchasing-must-become-supply-management](https://hbr.org/1983/09/purchasing-must-become-supply-management). Acesso em: 27 out. 2026.
+
+10. <a id="ref10"></a>MANTOVANI, C.; SANDRINI, J. P. B. *Planejamento do cadastro de peças de manutenção*: um estudo de caso em uma usina sucroalcooleira. 2020. Trabalho de Conclusão de Curso (Graduação em Engenharia de Produção) – Universidade Federal de Uberlândia, Ituiutaba, 2020. Disponível em: [https://repositorio.ufu.br/handle/123456789/29263](https://repositorio.ufu.br/handle/123456789/29263). Acesso em: 27 out. 2026.
+
+11. <a id="ref11"></a>MASQUIETTO, C. D.; SACOMANO NETO, M.; GIULIANI, A. C. Identificação de arranjos produtivos locais: o caso do arranjo produtivo local do álcool de Piracicaba. *Gestão & Regionalidade*, São Caetano do Sul, v. 26, n. 77, p. 75-87, 2010. Disponível em: [https://www.redalyc.org/pdf/1334/133416938007.pdf](https://www.redalyc.org/pdf/1334/133416938007.pdf). Acesso em: 27 out. 2026.
+
+12. <a id="ref12"></a>NOVACANA. Mercado de colhedoras de cana no Brasil deve ter 2018 de estagnação ou até encolher. [S. l.], 20 abr. 2018. Reportagem de José Roberto Gomes, originalmente publicada pela Reuters. Disponível em: [https://www.novacana.com/noticias/mercado-colhedoras-cana-brasil-2018-estagnacao-encolher-200418](https://www.novacana.com/noticias/mercado-colhedoras-cana-brasil-2018-estagnacao-encolher-200418). Acesso em: 27 out. 2026.
+
+13. <a id="ref13"></a>NOVACANA. Case IH desenvolve colhedora a etanol com a São Martinho. [S. l.], 21 mar. 2025. Reportagem de Camila Souza Ramos, originalmente publicada pela Globo Rural. Disponível em: [https://www.novacana.com/noticias/case-ih-desenvolve-colhedora-etanol-sao-martinho-210325](https://www.novacana.com/noticias/case-ih-desenvolve-colhedora-etanol-sao-martinho-210325). Acesso em: 27 out. 2026.
+
+14. <a id="ref14"></a>SANTOS, H. F. dos. Impactos econômicos da crise do setor sucroenergético no município de Sertãozinho (SP) na década de 2010. *Boletim Alfenense de Geografia*, Alfenas, v. 2, n. 4, p. 276-303, 2022. DOI: 10.29327/243949.2.4-16. Disponível em: [https://publicacoes.unifal-mg.edu.br/revistas/index.php/boletimalfenensedegeografia/article/download/1934/1504/9105](https://publicacoes.unifal-mg.edu.br/revistas/index.php/boletimalfenensedegeografia/article/download/1934/1504/9105). Acesso em: 27 out. 2026.
+
+15. <a id="ref15"></a>SÃO MARTINHO S.A. Fato relevante: aprovação da Segunda Fase de Etanol de Milho. São Paulo, 11 ago. 2025. Disponível em: [https://ri.saomartinho.com.br/Download.aspx?Arquivo=cTspR714dbh7IsDEjn9NfA%3D%3D&IdCanal=PIphWSER35%2FSG3%2F8iU1Owg%3D%3D&linguagem=pt](https://ri.saomartinho.com.br/Download.aspx?Arquivo=cTspR714dbh7IsDEjn9NfA%3D%3D&IdCanal=PIphWSER35%2FSG3%2F8iU1Owg%3D%3D&linguagem=pt). Acesso em: 27 out. 2026.
+
+16. <a id="ref16"></a>SÃO MARTINHO S.A. Manual do fornecedor. [S. l.], [s. d.]. Documento sem data de publicação indicada. Disponível em: [https://www.saomartinho.com.br/Download.aspx?Arquivo=efdXhm8UutcDtsRHBI3IzQ%3D%3D](https://www.saomartinho.com.br/Download.aspx?Arquivo=efdXhm8UutcDtsRHBI3IzQ%3D%3D). Acesso em: 27 out. 2026.
+
+17. <a id="ref17"></a>SÃO MARTINHO S.A. Negócios e unidades. [S. l.], [s. d.]. Disponível em: [https://www.saomartinho.com.br/show.aspx?idMateria=rk2CGXH5SOIFTobanx1b%2Bg%3D%3D](https://www.saomartinho.com.br/show.aspx?idMateria=rk2CGXH5SOIFTobanx1b%2Bg%3D%3D). Acesso em: 27 out. 2026.
+
+18. <a id="ref18"></a>SÃO MARTINHO S.A. Relato Integrado 2025/26: versão resumida. [S. l.], 2026. Disponível em: [https://www.saomartinho.com.br/Download.aspx?Arquivo=kwvGF8ldydQdDM8wAVII3w%3D%3D&IdCanal=E%2F5CI5hbGiTfjZ7mhu2y5w%3D%3D](https://www.saomartinho.com.br/Download.aspx?Arquivo=kwvGF8ldydQdDM8wAVII3w%3D%3D&IdCanal=E%2F5CI5hbGiTfjZ7mhu2y5w%3D%3D). Acesso em: 27 out. 2026.
+
+19. <a id="ref19"></a>SÃO MARTINHO S.A. Resultados 4T26: safra 2025/26. São Paulo, 25 maio 2026. Disponível em: [https://ri.saomartinho.com.br/Download.aspx?Arquivo=J05WPfwPbplRFnxwUynDAg%3D%3D](https://ri.saomartinho.com.br/Download.aspx?Arquivo=J05WPfwPbplRFnxwUynDAg%3D%3D). Acesso em: 27 out. 2026.
