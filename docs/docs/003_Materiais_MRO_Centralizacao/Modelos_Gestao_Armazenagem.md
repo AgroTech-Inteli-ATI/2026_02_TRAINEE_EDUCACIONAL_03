@@ -13,6 +13,39 @@ Centralizar permite compartilhar materiais, mas pode aumentar o tempo até o equ
 
 Esta análise é conceitual, com pesquisa complementar em **28/10/2026**. O contexto público da São Martinho está documentado na [retomada do contexto](/mro-centralizacao/retomada-contexto). Não dispomos de dados internos suficientes para identificar seu modelo atual ou dimensionar uma configuração recomendada. Os exemplos são **hipotéticos**.
 
+## Síntese visual para apresentação
+
+<figure style={{margin: '1.5rem 0'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 220px), 1fr))', gap: '1rem'}}>
+    <div style={{border: '2px solid var(--ifm-color-primary)', borderRadius: '12px', padding: '1rem'}}>
+      <h3>Centralizado</h3>
+      <p style={{fontSize: '1.15rem', fontWeight: 700}}>Centro → Unidades</p>
+      <p>Uma reserva compartilhada abastece a rede.</p>
+      <p><strong>Potencial:</strong> reduzir duplicações.</p>
+      <p><strong>Condição:</strong> a transferência precisa caber no prazo tolerável.</p>
+    </div>
+    <div style={{border: '2px solid var(--ifm-color-primary)', borderRadius: '12px', padding: '1rem'}}>
+      <h3>Descentralizado</h3>
+      <p style={{fontSize: '1.15rem', fontWeight: 700}}>Reserva em cada unidade</p>
+      <p>O atendimento depende do saldo disponível no local.</p>
+      <p><strong>Potencial:</strong> resposta próxima à operação.</p>
+      <p><strong>Condição:</strong> controlar duplicações e ociosidade.</p>
+    </div>
+    <div style={{border: '2px solid var(--ifm-color-primary)', borderRadius: '12px', padding: '1rem'}}>
+      <h3>Híbrido</h3>
+      <p style={{fontSize: '1.15rem', fontWeight: 700}}>Proteção local + reserva comum</p>
+      <p>A localização varia conforme o perfil do material.</p>
+      <p><strong>Potencial:</strong> combinar acesso e compartilhamento.</p>
+      <p><strong>Condição:</strong> coordenar os dois níveis para evitar excesso.</p>
+    </div>
+  </div>
+  <figcaption style={{marginTop: '0.75rem', fontSize: '0.9rem'}}>Figura 1 — Síntese conceitual dos autores, baseada em [1–3]. Não representa a configuração atual da São Martinho.</figcaption>
+</figure>
+
+:::tip Roteiro de decisão
+**1. Classificar o material → 2. Validar prazo e continuidade → 3. Comparar custo total → 4. Testar contingências.** A alternativa de menor custo só avança se atender às restrições operacionais. Ver [benchmark e resultados publicados](/mro-centralizacao/benchmark-praticas#casos-com-resultados-quantitativos-publicados).
+:::
+
 ## Três decisões diferentes
 
 | Dimensão | Decisão | Exemplo hipotético |
