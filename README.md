@@ -198,7 +198,7 @@ npm start
 
 ## 👥 Equipe
 
-**Integrantes**: [Preencher]
+**Integrantes**: Clara Carvalho Rapuano, Julia Jesus Bezerra e Laís Victoria Lopes de Araújo
 
 **Empresa estudada**: São Martinho S.A.
 
